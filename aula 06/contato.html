@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title>
+            Formulário de contato
+        </title>
+    </head>
+    <body>
+        <h1>ENTRE EM CONTATO</h1>
+        <form>
+            <label>Nome</label><br>
+            <input type="text" id="Nome"><br>
+            <label>Sobrenome</label><br>
+            <input type="text" id="Sobrenome"><br>
+            <p>Escolha sua série favorita:</p>
+            <input type="radio" id="Grey's Anatomy"
+            value="Grey's Anatomy"> <label>Grey's Anatomy</label><br>
+            <input type="radio" id="Glee"
+            value="Glee"> <label>Glee</label><br>
+            <input type="radio" id="Gilmore Girls"
+            value="Gilmore Girls"> <label>Gilmore Girls</label><br>
+        </form>
+        <h2>Botões tipo checkbox</h2>
+        <form>
+           <p>Quais são os melhores musicais entre as opções a seguir?</p>
+            <input type="checkbox" id="MUSICAL" 
+            value="Hamilton"><label>Hamilton</label><br>
+            <input type="checkbox" id="MUSICAL" 
+            value="TGS"><label>The greatest showman</label><br>
+            <input type="checkbox" id="MUSICAL" 
+            value="WSS"><label>West side story</label><br>
+            <input type="checkbox" id="MUSICAL" 
+            value="TTB"><label>Tick Tick Boom...</label><br> 
+        </form>
+        <h3>Botão Enviar (Submit)</h3>
+        <form action="/receber_form.php">
+            <label>Nome</label><br>
+            <input type="text" id="Nome"><br>
+            <label>Sobrenome</label><br>
+            <input type="text" id="Sobrenome"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
