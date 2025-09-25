@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0;
+    background-color: #f38bb39c;
+    color: #aa0839;
+}
+
+header{
+    background: linear-gradient(135deg, #f7699f, #f08d7e);
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+}
+
+h1{
+    margin: 0%;
+    font-size: 3rem;
+}
+
+.introducao{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #f38bb300;
+    color: #aa0839;
+}
+
+.introducao img {
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 70%;
+  border-radius: 12px;
+}
+
+h5{
+    font-size: 30px;
+}
+
+.turismo{
+    padding: 40px;
+    text-align: center;
+}
+
+.turismo h2{
+   font-size: 2.2rem; 
+   margin-bottom: 30px;
+   color: #aa0839;
+}
+
+.lugar{
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 820px;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lugar: :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(255, 111, 97, 0.3);
+}
+
+.lugar img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.lugar h3 {
+  margin-top: 15px;
+  font-size: 1.6rem;
+  color: #aa0839;
+}
+
+.lugar p {
+  font-size: 1rem;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+
+footer{
+   background: linear-gradient(135deg, #f7699f, #f08d7e);
+    color: white;
+    text-align: center;
+    padding: 18px 0; 
+}
+
+h4{
+    margin: 0%;
+    font-size: 3rem;
+}
+
