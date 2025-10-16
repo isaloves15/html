@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas - Linguagem de Marcação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabelas - Linguagem de Marcação</h1>
+    </header>
+
+    <nav>
+        <a href="#contatos">Contatos</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#horarios">Horários</a>
+        <a href="#notas">Notas</a>
+    </nav>
+
+    <main>
+        <section id="contatos">
+            <h2>Tabela de Contatos</h2>
+            <table>
+                <tr><th>Nome</th><th>Telefone</th><th>E-mail</th></tr>
+                <tr><td>Angelica Schuyler</td><td>(11) 98888-7777</td><td>angelica.sc@email.com</td></tr>
+                <tr><td>Eliza Hamilton</td><td>(11) 97777-6666</td><td>eliza.ha@email.com</td></tr>
+                <tr><td>Peggy Schuyler</td><td>(11) 96666-5555</td><td>peggy@email.com</td></tr>
+            </table>
+        </section>
+
+        <section id="produtos">
+            <h2>Tabela de Produtos</h2>
+            <table>
+                <tr><th>Produto</th><th>Categoria</th><th>Preço</th></tr>
+                <tr><td>Mouse Gamer</td><td>Periféricos</td><td>R$ 120,00</td></tr>
+                <tr><td>Headset Red</td><td>Áudio</td><td>R$ 180,00</td></tr>
+                <tr><td>Teclado Mecânico</td><td>Periféricos</td><td>R$ 230,00</td></tr>
+                <tr><td>Cadeira Gamer</td><td>Móveis</td><td>R$ 950,00</td></tr>
+                <tr><td>Mousepad XL</td><td>Acessórios</td><td>R$ 65,00</td></tr>
+            </table>
+        </section>
+
+        <section id="horarios">
+            <h2>Tabela de Horários de Aula (SENAI)</h2>
+            <table class="horarios">
+                <tr>
+                    <th>Segunda</th><th>Terça</th><th>Quarta</th><th>Quinta</th><th>Sexta</th>
+                </tr>
+                <tr><td>-</td><td>-</td><td>-</td><td>LIMA</td><td>PBE1</td></tr>
+                <tr><td>-</td><td>-</td><td>-</td><td>LIMA</td><td>PBE1</td></tr>
+                <tr><td>-</td><td>-</td><td>-</td><td>LIMA</td><td>BD</td></tr>
+                <tr><td>-</td><td>-</td><td>-</td><td>PBE1</td><td>BD</td></tr>
+                <tr><td>-</td><td>-</td><td>-</td><td>PSOF</td><td>BD</td></tr>
+            </table>
+        </section>
+
+        <section id="notas">
+            <h2>Tabela de Notas dos Alunos</h2>
+            <table class="notas">
+                <tr>
+                    <th>Aluno</th><th>Disciplina</th><th>Nota 1</th><th>Nota 2</th><th>Média</th><th>Situação</th>
+                </tr>
+                <tr><td>Alexender Hamilton</td><td>Programação</td><td>8.0</td><td>7.0</td><td>7.5</td><td class="aprovado">Aprovado</td></tr>
+                <tr><td>Aroon Bur<td>Banco de Dados</td><td>6.0</td><td>5.5</td><td>5.8</td><td class="reprovado">Reprovado</td></tr>
+                <tr><td>Thomas Jefferson</td><td>Desenvolvimento Web</td><td>9.0</td><td>8.5</td><td>8.8</td><td class="aprovado">Aprovado</td></tr>
+                <tr><td>George Washington</td><td>Linguagem de Marcação</td><td>4.0</td><td>5.0</td><td>4.5</td><td class="reprovado">Reprovado</td></tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

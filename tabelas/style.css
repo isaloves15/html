@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5e9ff; /* lilás clarinho */
+    color: #2e003e;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8b5cf6; /* roxo vibrante */
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(139, 92, 246, 0.4);
+}
+
+/* Menu */
+nav {
+    background-color: #b197fc; /* lilás médio */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f5ff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #c4b5fd;
+}
+
+/* Conteúdo */
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #6d28d9;
+    margin-top: 30px;
+}
+
+/* Tabelas gerais */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #f9f5ff; /* fundo suave */
+    box-shadow: 0 0 10px rgba(109, 40, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #d8b4fe;
+    padding: 10px;
+}
+
+th {
+    background-color: #a78bfa;
+    color: white;
+}
+
+/* Tabela de horários */
+.horarios th {
+    background-color: #c084fc;
+}
+
+/* Tabela de notas */
+.notas th {
+    background-color: #a5b4fc;
+}
+
+/* Situação */
+.aprovado {
+    color: #4ade80; /* verde suave */
+    font-weight: bold;
+}
+
+.reprovado {
+    color: #ef4444; /* vermelho suave */
+    font-weight: bold;
+}
