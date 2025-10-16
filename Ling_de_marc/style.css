@@ -8,7 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #fff5f8 0%, #ffe6f0 100%);
-  color: #9c1b51;
+  color: #a00646;
   text-align: center;
   padding: 40px 20px;
 }
@@ -49,9 +49,8 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   padding: 12px 30px;
-  transition: all 0.4s ease;
+  transition: 0.4s ease;
 }
 
 /* Botão Colorido */
@@ -61,7 +60,7 @@ button {
 }
 
 .botao1:hover {
-  background-color: #f8bbd0;
+  background-color: #e92f70;
   transform: scale(1.05);
 }
 
@@ -130,9 +129,9 @@ p:hover {
 .zoom {
   width: 100%;
   max-width: 350px;
-  border-radius: 15px;
+  border-radius: 20px;
   transition: transform 0.5s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(233, 115, 180, 0.76);
 }
 
 .zoom:hover {
