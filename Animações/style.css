@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  background: linear-gradient(135deg, #f8c7e9 0%, #fd8fc3 100%);
+  color: #96073e;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.white{
+  background-color: #fffbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 3px 10px rgb(236, 7, 95);
+  border-bottom: 2px solid #b80b70; 
+  width: 250px;
+  margin: 5%;
+  border-radius: 20%;
+}
+
+
+header{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fc9cc1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 3px 10px rgba(104, 6, 44, 0.4);
+  border-bottom: 2px solid #b80b70;
+}
+
+.mudCor {
+  background-color: #f77abe;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #970b51;
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    from {background-color: hotpink;}
+    to{background-color: lightpink;}
+}
+
+.animacao{
+  background-color: #f77abe;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #970b51;  
+  animation: cores 5s infinite;
+  width: 150px;
+}
+
+@keyframes cores {
+    0%{
+        background-color: red;
+    }
+    33.3%{
+        background-color: green;
+    }
+    66.6%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+.btAni {
+  background-color: #f77abe;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  /*transition: all 0.4s ease;*/
+  border: 2px solid #970b51;
+  animation: corTxt 5s infinite;
+  animation-direction: alternate;
+  width: 150px;
+}
+
+@keyframes corTxt {
+    from{
+        color: #96073e;
+        background-color: lightpink;
+        transform: scale(0.7);
+    }
+    to{
+        color: #f77abe;
+        background-color: #b80b70;
+        transform: scale(1);
+    }
+}
+
+
+.piscando {
+  background-color: #fabedf;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #970b51;
+  width: 150px;
+  animation: piscando 2s infinite;
+}
+
+@keyframes piscando {
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: #970b51;
+    }
+    100%{
+        color: rgb(74, 18, 230);
+    }
+}
+
+.sol {
+  background: linear-gradient(#dcf1fd , rgba(67, 220, 247, 0.747)) ;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #970b51;
+  width: 150px;
+}
+
+.sun{
+    width: 100px;  
+    animation-name: nascer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes nascer {
+    0%{
+        transform: translateY(0%) ;
+    }
+    100%{
+        transform: translateY(100px) ;
+    }
+}
+
+.coracao {
+  background-color: #fabedf;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #970b51;
+  width: 150px;
+}
+
+.heart{
+    width: 100px;
+    animation: bater 1s infinite alternate;
+}
+
+@keyframes bater {
+    from{
+        transform: scale(0.75);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+
+
+.flutuando  {
+  background-color: #fabedf;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(247, 125, 230, 0.5);
+  text-align: center;
+  padding: 20px;
+  /* transition: all 0.4s ease; */
+  border: 2px solid #970b51;
+  width: 200px;
+  height: 100px;
+}
+
+ .flutuando p {
+  animation-name: flutuando2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flutuando2 {
+    0%{
+        transform: translateY(5px);
+    }
+    33%{
+        transform: translateY(10px);
+        
+    }
+    66%{
+        transform: translateY(15px);
+        
+    }
+    100%{
+        transform: translateY(20px);
+        
+    }
+}
